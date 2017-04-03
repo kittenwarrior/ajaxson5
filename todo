@@ -1,0 +1,38 @@
+PART 1: CORE FUNCTIONALITY
+
+This part is easy to explain: go ahead and fill in those TODO comments!
+
+You know you are done when your site performs all the functionality described in the The Goal section above.
+
+You may find the following jQuery functions helpful:
+
+$(someSelector).attr()
+$(someSelector).html()
+$(someSelector).val()
+$(someSelector).find()
+
+
+PART 2: VALIDATION
+
+Next, it is time to add some validation to the page. We are going to create a contrived scenario here, just to make you practice your skillz.
+
+You know those "Prove you are not a robot" CAPTCHA widgets? Your job is to create one of those, albeit a nontraditional one. Specifically, the task is as follows:
+
+Add a second field to your form.
+"Prove you are not a robot by answering this riddle:"
+"_________ Jacksons are better than 1."
+
+If the user gets the answer right, then go ahead and load the GIF like normal.
+
+If not, bring the hammer down:
+
+*number box turns red* and theres an error that says "No gifs for you." in red.
+
+PART 3: BEAUTY
+
+Finally, add some CSS to make your page beautiful and responsive.
+But feel free to get creative and style the page however you want.
+
+The one requirement is that your page must be reasonably responsive!. Specifically, this means that it must be equally functional and non-ugly on mobile phones as it is on larger desktop screens. You should make your browser window really narrow while you design, so as to force yourself to think "mobile first".
+
+You are encouraged (but not required) to let Bootstrap do most of the heavy lifting, particularly on the responsiveness aspect.
